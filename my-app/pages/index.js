@@ -1,9 +1,9 @@
 import Head from 'next/head'
 import React, { useEffect, useRef, useState } from "react";
 import styles from '../styles/Home.module.css'
-import Web3Modal, { providers } from "web3modal"
+import Web3Modal from "web3modal"
 import {abi,NFT_CONTRACT_ADDRESS} from "../constants"
-import { Contract, utils } from 'ethers';
+import { Contract, utils, providers } from 'ethers';
 
 export default function Home() {
   const [walletConnected,setWalletConnected] = useState(false);
@@ -129,7 +129,7 @@ export default function Home() {
           {renderButton()}
         </div>
         <div>
-          <img className={styles.image} src='./LW3punks/1.png' />
+          <img className={styles.image} src='./9.png' />
         </div>
       </div>
     </div>
