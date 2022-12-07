@@ -1,5 +1,6 @@
 
 .main {
+  padding-left: 10%;
   min-height: 90vh;
   display: flex;
   flex-direction: row;
